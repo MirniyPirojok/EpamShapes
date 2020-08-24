@@ -32,7 +32,7 @@ public class CubeListCreator {
         }
 
         if (cubes.isEmpty()) {
-            logger.info("Cube list is not created");
+            logger.error("Cube list is not created");
         } else {
             logger.info("Cube list is created.");
         }

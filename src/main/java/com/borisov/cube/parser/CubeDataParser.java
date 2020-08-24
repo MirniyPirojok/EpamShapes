@@ -1,5 +1,6 @@
 package com.borisov.cube.parser;
 
+import com.borisov.cube.exception.CustomException;
 import com.borisov.cube.validator.ValueValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,16 +22,15 @@ public class CubeDataParser {
             value = Double.parseDouble(valueStr);
             values.add(value);
         }
-
         return values;
     }
 
-    public List<List<Double>> parseData(List<String> lines) {
+    public List<List<Double>> parseData(List<String> lines) throws CustomException {
         List<List<Double>> valuesList = new ArrayList<>();
 
         if (lines.isEmpty()) {
-            logger.error("There is no data for parsing.");
-            return valuesList;
+            logger.fatal("There is no data for parsing.");
+            throw new CustomException("There is no data for parsing.");
         }
 
         ValueValidator valueValidator = new ValueValidator();
@@ -42,7 +42,7 @@ public class CubeDataParser {
                 logger.info(String.format("Line #%d is parsed", lineNumber));
                 valuesList.add(values);
             } else {
-                logger.error(String.format("Invalid line #%d", lineNumber));
+                logger.warn(String.format("Invalid line #%d", lineNumber));
             }
         }
         return valuesList;
