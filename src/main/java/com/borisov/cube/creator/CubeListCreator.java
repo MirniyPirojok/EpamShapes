@@ -2,7 +2,6 @@ package com.borisov.cube.creator;
 
 import com.borisov.cube.entity.Cube;
 import com.borisov.cube.entity.Point;
-import com.borisov.cube.validator.CubeValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,15 +19,9 @@ public class CubeListCreator {
 
         Point vertex = new Point(x, y, z);
         Cube cube = new Cube(vertex, side);
-        CubeValidator cubeValidator = new CubeValidator();
 
-        if (cubeValidator.isCube(cube)) {
-            logger.info(cube.toString());
-            return cube;
-        } else {
-            logger.error("Shape is not cube.");
-            return null;
-        }
+        logger.info(cube.toString());
+        return cube;
     }
 
     public List<Cube> createCubes(List<List<Double>> valuesList) {
@@ -43,6 +36,7 @@ public class CubeListCreator {
         } else {
             logger.info("Cube list is created.");
         }
+
         return cubes;
     }
 }

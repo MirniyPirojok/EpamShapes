@@ -772,3 +772,812 @@
 [INFO ] 2020-08-24 06:14:00.293 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
 [INFO ] 2020-08-24 06:14:00.293 [main] 74 - Cube id3 is not cut by plane XZ.
 [INFO ] 2020-08-24 06:14:00.293 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:31:49.121 [main] 21 - File was read
+[ERROR] 2020-08-24 11:31:49.137 [main] 39 - Invalid line #1
+[INFO ] 2020-08-24 11:31:49.137 [main] 36 - Line #2 is parsed
+[ERROR] 2020-08-24 11:31:49.137 [main] 39 - Invalid line #3
+[ERROR] 2020-08-24 11:31:49.137 [main] 39 - Invalid line #4
+[INFO ] 2020-08-24 11:31:49.137 [main] 36 - Line #5 is parsed
+[INFO ] 2020-08-24 11:31:49.137 [main] 36 - Line #6 is parsed
+[ERROR] 2020-08-24 11:31:49.137 [main] 39 - Invalid line #7
+[ERROR] 2020-08-24 11:31:49.137 [main] 39 - Invalid line #8
+[INFO ] 2020-08-24 11:31:49.137 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:31:49.137 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:31:49.152 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:31:49.152 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:31:49.152 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:31:49.152 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:31:49.152 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:31:49.152 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:31:49.152 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:31:49.152 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:31:49.152 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:31:49.152 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:34:25.230 [main] 21 - File was read
+[INFO ] 2020-08-24 11:34:25.246 [main] 39 - Cube list is not created
+[INFO ] 2020-08-24 11:34:39.618 [main] 21 - File was read
+[ERROR] 2020-08-24 11:34:39.634 [main] 39 - Invalid line #1
+[INFO ] 2020-08-24 11:34:39.634 [main] 36 - Line #2 is parsed
+[ERROR] 2020-08-24 11:34:39.634 [main] 39 - Invalid line #3
+[ERROR] 2020-08-24 11:34:39.634 [main] 39 - Invalid line #4
+[INFO ] 2020-08-24 11:34:39.634 [main] 36 - Line #5 is parsed
+[INFO ] 2020-08-24 11:34:39.634 [main] 36 - Line #6 is parsed
+[ERROR] 2020-08-24 11:34:39.634 [main] 39 - Invalid line #7
+[INFO ] 2020-08-24 11:34:39.634 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:34:39.634 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:34:39.634 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:34:39.634 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:34:39.634 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:34:39.634 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:34:39.634 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:34:39.634 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:34:39.634 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:34:39.634 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:34:39.634 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:34:39.634 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:34:39.650 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:34:39.650 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:34:39.650 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:37:40.122 [main] 21 - File was read
+[ERROR] 2020-08-24 11:37:40.122 [main] 32 - There is no data for parsing.
+[INFO ] 2020-08-24 11:37:40.122 [main] 39 - Cube list is not created
+[INFO ] 2020-08-24 11:41:47.048 [main] 21 - File was read
+[ERROR] 2020-08-24 11:41:47.048 [main] 44 - Invalid line #1
+[INFO ] 2020-08-24 11:41:47.048 [main] 41 - Line #2 is parsed
+[ERROR] 2020-08-24 11:41:47.048 [main] 44 - Invalid line #3
+[ERROR] 2020-08-24 11:41:47.048 [main] 44 - Invalid line #4
+[INFO ] 2020-08-24 11:41:47.064 [main] 41 - Line #5 is parsed
+[INFO ] 2020-08-24 11:41:47.064 [main] 41 - Line #6 is parsed
+[ERROR] 2020-08-24 11:41:47.064 [main] 44 - Invalid line #7
+[INFO ] 2020-08-24 11:41:47.064 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:41:47.064 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:41:47.064 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:41:47.064 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:41:47.064 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:41:47.064 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:41:47.064 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:41:47.064 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:41:47.064 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:41:47.064 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:41:47.064 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:41:47.080 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:41:47.080 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:41:47.080 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:42:08.106 [main] 21 - File was read
+[ERROR] 2020-08-24 11:42:08.106 [main] 31 - There is no data for parsing.
+[INFO ] 2020-08-24 11:42:08.106 [main] 39 - Cube list is not created
+[INFO ] 2020-08-24 11:42:19.947 [main] 21 - File was read
+[ERROR] 2020-08-24 11:42:19.947 [main] 44 - Invalid line #1
+[INFO ] 2020-08-24 11:42:19.947 [main] 41 - Line #2 is parsed
+[ERROR] 2020-08-24 11:42:19.947 [main] 44 - Invalid line #3
+[ERROR] 2020-08-24 11:42:19.947 [main] 44 - Invalid line #4
+[INFO ] 2020-08-24 11:42:19.947 [main] 41 - Line #5 is parsed
+[INFO ] 2020-08-24 11:42:19.947 [main] 41 - Line #6 is parsed
+[ERROR] 2020-08-24 11:42:19.947 [main] 44 - Invalid line #7
+[INFO ] 2020-08-24 11:42:19.963 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:42:19.963 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:42:19.963 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:42:19.963 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:42:19.963 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:42:19.963 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:42:19.963 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:42:19.963 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:42:19.963 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:42:19.963 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:42:19.963 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:42:19.963 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:44:14.272 [main] 21 - File was read
+[ERROR] 2020-08-24 11:44:14.288 [main] 43 - Invalid line #1
+[INFO ] 2020-08-24 11:44:14.288 [main] 40 - Line #2 is parsed
+[ERROR] 2020-08-24 11:44:14.288 [main] 43 - Invalid line #3
+[ERROR] 2020-08-24 11:44:14.288 [main] 43 - Invalid line #4
+[INFO ] 2020-08-24 11:44:14.288 [main] 40 - Line #5 is parsed
+[INFO ] 2020-08-24 11:44:14.288 [main] 40 - Line #6 is parsed
+[ERROR] 2020-08-24 11:44:14.288 [main] 43 - Invalid line #7
+[INFO ] 2020-08-24 11:44:14.288 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:44:14.288 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:44:14.288 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:44:14.288 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:44:14.304 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:44:14.304 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:44:14.304 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:44:14.304 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:44:14.304 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:44:14.304 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:44:14.304 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:44:14.304 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 11:50:33.508 [main] 21 - File was read
+[ERROR] 2020-08-24 11:50:33.508 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 11:50:33.508 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 11:50:33.508 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 11:50:33.508 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 11:50:33.508 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 11:50:33.508 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 11:50:33.508 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 11:50:33.523 [main] 23 - Cube id1 volume: 64.0
+[ERROR] 2020-08-24 11:50:33.523 [main] 35 - Shape is not cube.
+[INFO ] 2020-08-24 11:50:33.523 [main] 23 - Cube id2 volume: 343.0
+[ERROR] 2020-08-24 11:50:33.523 [main] 35 - Shape is not cube.
+[INFO ] 2020-08-24 11:50:33.523 [main] 23 - Cube id3 volume: 343.0
+[ERROR] 2020-08-24 11:50:33.523 [main] 35 - Shape is not cube.
+[INFO ] 2020-08-24 11:50:33.523 [main] 39 - Cube list is not created
+[INFO ] 2020-08-24 11:52:42.599 [main] 21 - File was read
+[ERROR] 2020-08-24 11:52:42.599 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 11:52:42.599 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 11:52:42.599 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 11:52:42.599 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 11:52:42.599 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 11:52:42.599 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 11:52:42.599 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 11:52:42.599 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 33 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 11:52:42.614 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 33 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:52:42.614 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 33 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 11:52:42.614 [main] 41 - Cube list is created.
+[INFO ] 2020-08-24 11:52:42.614 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 11:52:42.614 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 11:52:42.614 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:52:42.614 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 11:52:42.614 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 11:52:42.614 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 11:52:42.614 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 11:52:42.614 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 12:06:35.230 [main] 21 - File was read
+[ERROR] 2020-08-24 12:06:35.239 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 12:06:35.240 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 12:06:35.241 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 12:06:35.242 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 12:06:35.243 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 12:06:35.243 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 12:06:35.244 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 12:06:35.248 [main] 29 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 12:06:35.249 [main] 29 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:06:35.249 [main] 29 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:06:35.249 [main] 35 - Cube list is created.
+[INFO ] 2020-08-24 12:06:35.251 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 12:06:35.251 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 12:06:35.252 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 12:06:35.252 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:06:35.253 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:06:35.254 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 12:06:35.254 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 12:06:35.255 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 12:06:35.256 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:06:35.256 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:06:35.257 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:06:35.257 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 12:06:35.258 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 12:06:35.258 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 12:06:35.259 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:06:35.259 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:06:35.260 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:06:35.260 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 12:07:44.522 [main] 21 - File was read
+[ERROR] 2020-08-24 12:07:44.528 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 12:07:44.529 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 12:07:44.530 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 12:07:44.530 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 12:07:44.531 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 12:07:44.532 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 12:07:44.532 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 12:07:44.533 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 12:07:44.536 [main] 29 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 12:07:44.536 [main] 29 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:07:44.536 [main] 29 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:07:44.537 [main] 29 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.0}
+[INFO ] 2020-08-24 12:07:44.537 [main] 35 - Cube list is created.
+[INFO ] 2020-08-24 12:07:44.538 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 12:07:44.539 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 12:07:44.539 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 12:07:44.539 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:07:44.539 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:07:44.540 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 12:07:44.540 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 12:07:44.541 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 12:07:44.541 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:07:44.541 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:07:44.542 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:07:44.542 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 12:07:44.542 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 12:07:44.543 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 12:07:44.543 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:07:44.543 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:07:44.544 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:07:44.544 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 12:07:44.544 [main] 16 - Cube id4 square: 0.0
+[INFO ] 2020-08-24 12:07:44.545 [main] 23 - Cube id4 volume: 0.0
+[INFO ] 2020-08-24 12:07:44.545 [main] 40 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 12:07:44.545 [main] 57 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:07:44.546 [main] 74 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:07:44.546 [main] 85 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 12:08:28.990 [main] 21 - File was read
+[ERROR] 2020-08-24 12:08:28.999 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 12:08:29.000 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 12:08:29.001 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 12:08:29.002 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 12:08:29.002 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 12:08:29.003 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 12:08:29.004 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 12:08:29.005 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 12:08:29.009 [main] 29 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 12:08:29.009 [main] 29 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:08:29.010 [main] 29 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:08:29.010 [main] 29 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 12:08:29.011 [main] 35 - Cube list is created.
+[INFO ] 2020-08-24 12:08:29.013 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 12:08:29.014 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 12:08:29.014 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 12:08:29.015 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:08:29.015 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:08:29.016 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 12:08:29.016 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 12:08:29.017 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 12:08:29.017 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:08:29.018 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:08:29.018 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:08:29.019 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 12:08:29.019 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 12:08:29.020 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 12:08:29.020 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:08:29.021 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:08:29.021 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:08:29.021 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 12:08:29.022 [main] 16 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 12:08:29.022 [main] 23 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 12:08:29.022 [main] 40 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 12:08:29.023 [main] 57 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:08:29.023 [main] 74 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:08:29.023 [main] 85 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 12:09:38.031 [main] 21 - File was read
+[ERROR] 2020-08-24 12:09:38.039 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 12:09:38.041 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 12:09:38.041 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 12:09:38.042 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 12:09:38.043 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 12:09:38.044 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 12:09:38.045 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 12:09:38.046 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 12:09:38.051 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 12:09:38.051 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:09:38.052 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 12:09:38.053 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 12:09:38.053 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 12:09:38.055 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 12:09:38.056 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 12:09:38.056 [main] 40 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 12:09:38.057 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:09:38.057 [main] 74 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:09:38.058 [main] 85 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 12:09:38.059 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 12:09:38.059 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 12:09:38.060 [main] 37 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:09:38.061 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:09:38.061 [main] 71 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:09:38.062 [main] 85 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 12:09:38.062 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 12:09:38.063 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 12:09:38.063 [main] 37 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 12:09:38.064 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 12:09:38.065 [main] 74 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:09:38.065 [main] 85 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 12:09:38.066 [main] 16 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 12:09:38.066 [main] 23 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 12:09:38.067 [main] 40 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 12:09:38.067 [main] 57 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 12:09:38.067 [main] 74 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 12:09:38.068 [main] 85 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 14:57:45.612 [main] 21 - File was read
+[ERROR] 2020-08-24 14:57:45.618 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 14:57:45.619 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 14:57:45.620 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 14:57:45.620 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 14:57:45.621 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 14:57:45.621 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 14:57:45.622 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 14:57:45.623 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 14:57:45.626 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 14:57:45.626 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 14:57:45.627 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 14:57:45.627 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 14:57:45.627 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 14:57:45.629 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 14:57:45.630 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 14:57:45.630 [main] 64 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 14:57:45.630 [main] 81 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:57:45.631 [main] 98 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:57:45.631 [main] 109 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 14:57:45.631 [main] 42 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:57:45.632 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 14:57:45.633 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 14:57:45.633 [main] 61 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 14:57:45.634 [main] 78 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:57:45.634 [main] 95 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:57:45.635 [main] 109 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 14:57:45.635 [main] 39 - Cube id2 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 14:57:45.636 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 14:57:45.636 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 14:57:45.636 [main] 61 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 14:57:45.636 [main] 78 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:57:45.636 [main] 98 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:57:45.637 [main] 109 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 14:57:45.637 [main] 39 - Cube id3 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 14:57:45.637 [main] 16 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 14:57:45.637 [main] 23 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 14:57:45.638 [main] 64 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 14:57:45.638 [main] 81 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:57:45.638 [main] 98 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:57:45.639 [main] 109 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 14:57:45.639 [main] 42 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:58:27.098 [main] 21 - File was read
+[ERROR] 2020-08-24 14:58:27.106 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 14:58:27.107 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 14:58:27.108 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 14:58:27.108 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 14:58:27.109 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 14:58:27.110 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 14:58:27.110 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 14:58:27.111 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 14:58:27.114 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 14:58:27.114 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 14:58:27.115 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 14:58:27.116 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 14:58:27.116 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 14:58:27.118 [main] 16 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 14:58:27.118 [main] 23 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 14:58:27.119 [main] 64 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 14:58:27.119 [main] 81 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:58:27.120 [main] 98 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:58:27.120 [main] 42 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:58:27.121 [main] 109 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 14:58:27.121 [main] 16 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 14:58:27.121 [main] 23 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 14:58:27.122 [main] 61 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 14:58:27.122 [main] 78 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:58:27.123 [main] 95 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:58:27.124 [main] 39 - Cube id2 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 14:58:27.124 [main] 109 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 14:58:27.125 [main] 16 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 14:58:27.125 [main] 23 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 14:58:27.126 [main] 61 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 14:58:27.126 [main] 78 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 14:58:27.127 [main] 98 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:58:27.127 [main] 39 - Cube id3 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 14:58:27.128 [main] 109 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 14:58:27.128 [main] 16 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 14:58:27.129 [main] 23 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 14:58:27.130 [main] 64 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 14:58:27.130 [main] 81 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:58:27.131 [main] 98 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 14:58:27.131 [main] 42 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 14:58:27.132 [main] 109 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:19:54.764 [main] 21 - File was read
+[ERROR] 2020-08-24 16:19:54.769 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:19:54.770 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:19:54.771 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:19:54.771 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:19:54.772 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:19:54.773 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:19:54.773 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:19:54.774 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:19:54.778 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:19:54.778 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:19:54.779 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:19:54.780 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:19:54.780 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:19:54.783 [main] 17 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:19:54.784 [main] 24 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:19:54.784 [main] 81 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:19:54.785 [main] 98 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:19:54.785 [main] 115 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:19:54.786 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:19:54.786 [main] 57 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:19:54.787 [main] 57 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:19:54.788 [main] 126 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:19:54.788 [main] 17 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:19:54.789 [main] 24 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:19:54.790 [main] 78 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 16:19:54.790 [main] 95 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:19:54.791 [main] 112 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:19:54.792 [main] 54 - Cube id2 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 16:19:54.792 [main] 126 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:19:54.793 [main] 17 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 16:19:54.793 [main] 24 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 16:19:54.793 [main] 78 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 16:19:54.794 [main] 95 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:19:54.794 [main] 115 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:19:54.795 [main] 54 - Cube id3 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 16:19:54.795 [main] 126 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:19:54.796 [main] 17 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:19:54.796 [main] 24 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:19:54.797 [main] 81 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:19:54.797 [main] 98 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:19:54.797 [main] 115 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:19:54.798 [main] 57 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:19:54.798 [main] 57 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:19:54.798 [main] 57 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:19:54.798 [main] 126 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:28:58.797 [main] 21 - File was read
+[ERROR] 2020-08-24 16:28:58.802 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:28:58.803 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:28:58.804 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:28:58.804 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:28:58.805 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:28:58.805 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:28:58.806 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:28:58.806 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:28:58.808 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:28:58.809 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:28:58.809 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:28:58.810 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:28:58.810 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:28:58.811 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:28:58.811 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:28:58.812 [main] 86 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:28:58.812 [main] 103 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:28:58.812 [main] 120 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.813 [main] 62 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:28:58.813 [main] 62 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.813 [main] 62 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:28:58.813 [main] 131 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:28:58.814 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:28:58.814 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:28:58.814 [main] 83 - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 16:28:58.815 [main] 100 - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:28:58.815 [main] 117 - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:28:58.815 [main] 60 - Cube id2 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 16:28:58.816 [main] 60 - Cube id2 volumes ratio by plane XZ: 196.0:147.0
+[INFO ] 2020-08-24 16:28:58.816 [main] 60 - Cube id2 volumes ratio by plane XY: 196.0:147.0
+[INFO ] 2020-08-24 16:28:58.816 [main] 131 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:28:58.817 [main] 20 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 16:28:58.817 [main] 27 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 16:28:58.817 [main] 83 - Cube id3 volumes ratio by plane XY: 196.0 : 147.0
+[INFO ] 2020-08-24 16:28:58.818 [main] 100 - Cube id3 volumes ratio by plane YZ: 196.0 : 147.0
+[INFO ] 2020-08-24 16:28:58.819 [main] 120 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.820 [main] 60 - Cube id3 volumes ratio by plane YZ: 196.0:147.0
+[INFO ] 2020-08-24 16:28:58.820 [main] 62 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.821 [main] 60 - Cube id3 volumes ratio by plane XY: 196.0:147.0
+[INFO ] 2020-08-24 16:28:58.821 [main] 131 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:28:58.822 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:28:58.823 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:28:58.823 [main] 86 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:28:58.824 [main] 103 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:28:58.824 [main] 120 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.825 [main] 62 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:28:58.825 [main] 62 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:28:58.826 [main] 62 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:28:58.826 [main] 131 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:37:14.285 [main] 21 - File was read
+[ERROR] 2020-08-24 16:37:14.291 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:37:14.293 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:37:14.293 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:37:14.294 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:37:14.295 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:37:14.295 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:37:14.296 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:37:14.296 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:37:14.298 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:37:14.299 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:37:14.299 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:37:14.299 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:37:14.300 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:37:14.301 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:37:14.302 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:37:14.302 [main] 62 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:37:14.303 [main] 62 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:37:14.303 [main] 62 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:37:14.304 [main] 130 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:37:14.304 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:37:14.305 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:37:14.306 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:37:14.306 [main] 130 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:37:14.307 [main] 20 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 16:37:14.307 [main] 27 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 16:37:14.308 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:37:14.309 [main] 130 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:37:14.309 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:37:14.310 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:37:14.310 [main] 62 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:37:14.311 [main] 62 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:37:14.311 [main] 62 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:37:14.312 [main] 130 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:39:05.688 [main] 21 - File was read
+[ERROR] 2020-08-24 16:39:05.696 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:39:05.697 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:39:05.698 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:39:05.699 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:39:05.700 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:39:05.700 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:39:05.701 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:39:05.702 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:39:05.706 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:39:05.706 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:39:05.707 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:39:05.707 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:39:05.708 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:39:05.711 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:39:05.712 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:39:05.713 [main] 61 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:39:05.713 [main] 61 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:39:05.714 [main] 61 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:39:05.715 [main] 129 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:39:05.716 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:39:05.716 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:39:05.717 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:39:05.718 [main] 59 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:39:05.719 [main] 59 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 16:39:05.720 [main] 129 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:39:05.720 [main] 20 - Cube id3 square: 294.0
+[INFO ] 2020-08-24 16:39:05.721 [main] 27 - Cube id3 volume: 343.0
+[INFO ] 2020-08-24 16:39:05.721 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:39:05.722 [main] 61 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:39:05.723 [main] 59 - Cube id3 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 16:39:05.723 [main] 129 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:39:05.724 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:39:05.725 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:39:05.725 [main] 61 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:39:05.726 [main] 61 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:39:05.726 [main] 61 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:39:05.727 [main] 129 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:41:43.467 [main] 21 - File was read
+[ERROR] 2020-08-24 16:41:43.471 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:41:43.472 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:41:43.473 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:41:43.473 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:41:43.474 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:41:43.474 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:41:43.474 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:41:43.475 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:41:43.477 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:41:43.477 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:41:43.477 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 16:41:43.478 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:41:43.478 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:41:43.479 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:41:43.480 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:41:43.480 [main] 61 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:41:43.481 [main] 61 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:41:43.481 [main] 61 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:41:43.481 [main] 129 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:41:43.481 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:41:43.482 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:41:43.482 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:41:43.482 [main] 59 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:41:43.483 [main] 59 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 16:41:43.483 [main] 129 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:41:43.483 [main] 20 - Cube id3 square: 384.0
+[INFO ] 2020-08-24 16:41:43.484 [main] 27 - Cube id3 volume: 512.0
+[INFO ] 2020-08-24 16:41:43.484 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.0
+[INFO ] 2020-08-24 16:41:43.484 [main] 61 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:41:43.485 [main] 59 - Cube id3 volumes ratio by plane XY: 1.0
+[INFO ] 2020-08-24 16:41:43.485 [main] 129 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:41:43.486 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:41:43.486 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:41:43.487 [main] 61 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:41:43.487 [main] 61 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:41:43.488 [main] 61 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:41:43.488 [main] 129 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:43:27.634 [main] 21 - File was read
+[ERROR] 2020-08-24 16:43:27.642 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:43:27.643 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:43:27.644 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:43:27.645 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:43:27.646 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:43:27.646 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:43:27.647 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:43:27.648 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:43:27.651 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:43:27.651 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:43:27.652 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 16:43:27.652 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:43:27.653 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:43:27.655 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:43:27.656 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:43:27.657 [main] 61 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:43:27.657 [main] 61 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:27.658 [main] 61 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:43:27.659 [main] 130 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:43:27.659 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:43:27.660 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:43:27.661 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:27.661 [main] 59 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:27.662 [main] 59 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:27.663 [main] 130 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:43:27.664 [main] 20 - Cube id3 square: 384.0
+[INFO ] 2020-08-24 16:43:27.664 [main] 27 - Cube id3 volume: 512.0
+[INFO ] 2020-08-24 16:43:27.665 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.0
+[INFO ] 2020-08-24 16:43:27.665 [main] 61 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:27.666 [main] 59 - Cube id3 volumes ratio by plane XY: 1.0
+[INFO ] 2020-08-24 16:43:27.666 [main] 130 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:43:27.666 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:43:27.667 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:43:27.667 [main] 61 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:43:27.667 [main] 61 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:27.668 [main] 61 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:43:27.668 [main] 130 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 16:43:58.273 [main] 21 - File was read
+[ERROR] 2020-08-24 16:43:58.282 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 16:43:58.283 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 16:43:58.284 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 16:43:58.284 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 16:43:58.286 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 16:43:58.286 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 16:43:58.287 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 16:43:58.288 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 16:43:58.292 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 16:43:58.292 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 16:43:58.293 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 16:43:58.294 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 16:43:58.294 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 16:43:58.297 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 16:43:58.298 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 16:43:58.298 [main] 61 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:43:58.299 [main] 61 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:58.300 [main] 61 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 16:43:58.300 [main] 130 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 16:43:58.301 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 16:43:58.302 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 16:43:58.302 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:58.303 [main] 59 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:58.304 [main] 59 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 16:43:58.305 [main] 130 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 16:43:58.305 [main] 20 - Cube id3 square: 384.0
+[INFO ] 2020-08-24 16:43:58.306 [main] 27 - Cube id3 volume: 512.0
+[INFO ] 2020-08-24 16:43:58.306 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.0
+[INFO ] 2020-08-24 16:43:58.307 [main] 61 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:58.307 [main] 59 - Cube id3 volumes ratio by plane XY: 1.0
+[INFO ] 2020-08-24 16:43:58.308 [main] 130 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 16:43:58.308 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 16:43:58.309 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 16:43:58.310 [main] 61 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 16:43:58.310 [main] 61 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 16:43:58.311 [main] 61 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 16:43:58.311 [main] 130 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 17:09:21.735 [main] 21 - File was read
+[ERROR] 2020-08-24 17:09:21.741 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 17:09:21.742 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 17:09:21.743 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 17:09:21.743 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 17:09:21.744 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 17:09:21.745 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 17:09:21.745 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 17:09:21.746 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 17:09:21.750 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 17:09:21.750 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 17:09:21.751 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 17:09:21.751 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 17:09:21.752 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 17:09:21.754 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 17:09:21.754 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 17:11:53.917 [main] 21 - File was read
+[ERROR] 2020-08-24 17:11:53.922 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 17:11:53.923 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 17:11:53.923 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 17:11:53.923 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 17:11:53.924 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 17:11:53.924 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 17:11:53.925 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 17:11:53.925 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 17:11:53.928 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 17:11:53.928 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 17:11:53.928 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 17:11:53.929 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 17:11:53.929 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 17:11:53.931 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 17:11:53.931 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 17:11:53.932 [main] 61 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 17:11:53.932 [main] 61 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:11:53.933 [main] 61 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 17:11:53.933 [main] 130 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 17:11:53.934 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 17:11:53.934 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 17:11:53.934 [main] 59 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 17:11:53.935 [main] 59 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 17:11:53.935 [main] 59 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 17:11:53.936 [main] 130 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 17:11:53.936 [main] 20 - Cube id3 square: 384.0
+[INFO ] 2020-08-24 17:11:53.937 [main] 27 - Cube id3 volume: 512.0
+[INFO ] 2020-08-24 17:11:53.937 [main] 59 - Cube id3 volumes ratio by plane YZ: 1.0
+[INFO ] 2020-08-24 17:11:53.938 [main] 61 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:11:53.938 [main] 59 - Cube id3 volumes ratio by plane XY: 1.0
+[INFO ] 2020-08-24 17:11:53.938 [main] 130 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 17:11:53.938 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 17:11:53.938 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 17:11:53.939 [main] 61 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 17:11:53.939 [main] 61 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:11:53.939 [main] 61 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 17:11:53.939 [main] 130 - Cube id4 is on plane: true
+[INFO ] 2020-08-24 17:17:41.284 [main] 21 - File was read
+[ERROR] 2020-08-24 17:17:41.289 [main] 45 - Invalid line #1
+[INFO ] 2020-08-24 17:17:41.290 [main] 42 - Line #2 is parsed
+[ERROR] 2020-08-24 17:17:41.291 [main] 45 - Invalid line #3
+[ERROR] 2020-08-24 17:17:41.291 [main] 45 - Invalid line #4
+[INFO ] 2020-08-24 17:17:41.292 [main] 42 - Line #5 is parsed
+[INFO ] 2020-08-24 17:17:41.292 [main] 42 - Line #6 is parsed
+[ERROR] 2020-08-24 17:17:41.292 [main] 45 - Invalid line #7
+[INFO ] 2020-08-24 17:17:41.293 [main] 42 - Line #8 is parsed
+[INFO ] 2020-08-24 17:17:41.295 [main] 23 - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+[INFO ] 2020-08-24 17:17:41.295 [main] 23 - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+[INFO ] 2020-08-24 17:17:41.295 [main] 23 - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+[INFO ] 2020-08-24 17:17:41.296 [main] 23 - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+[INFO ] 2020-08-24 17:17:41.296 [main] 37 - Cube list is created.
+[INFO ] 2020-08-24 17:17:41.297 [main] 20 - Cube id1 square: 96.0
+[INFO ] 2020-08-24 17:17:41.298 [main] 27 - Cube id1 volume: 64.0
+[INFO ] 2020-08-24 17:17:41.298 [main] 57 - Cube id1 is not cut by plane YZ.
+[INFO ] 2020-08-24 17:17:41.299 [main] 57 - Cube id1 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:17:41.299 [main] 57 - Cube id1 is not cut by plane XY.
+[INFO ] 2020-08-24 17:17:41.299 [main] 75 - Cube id1 is on plane: false
+[INFO ] 2020-08-24 17:17:41.299 [main] 20 - Cube id2 square: 294.0
+[INFO ] 2020-08-24 17:17:41.300 [main] 27 - Cube id2 volume: 343.0
+[INFO ] 2020-08-24 17:17:41.300 [main] 55 - Cube id2 volumes ratio by plane YZ: 1.3333333333333333
+[INFO ] 2020-08-24 17:17:41.300 [main] 55 - Cube id2 volumes ratio by plane XZ: 1.3333333333333333
+[INFO ] 2020-08-24 17:17:41.301 [main] 55 - Cube id2 volumes ratio by plane XY: 1.3333333333333333
+[INFO ] 2020-08-24 17:17:41.301 [main] 75 - Cube id2 is on plane: false
+[INFO ] 2020-08-24 17:17:41.302 [main] 20 - Cube id3 square: 384.0
+[INFO ] 2020-08-24 17:17:41.302 [main] 27 - Cube id3 volume: 512.0
+[INFO ] 2020-08-24 17:17:41.303 [main] 55 - Cube id3 volumes ratio by plane YZ: 1.0
+[INFO ] 2020-08-24 17:17:41.303 [main] 57 - Cube id3 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:17:41.303 [main] 55 - Cube id3 volumes ratio by plane XY: 1.0
+[INFO ] 2020-08-24 17:17:41.304 [main] 75 - Cube id3 is on plane: true
+[INFO ] 2020-08-24 17:17:41.305 [main] 20 - Cube id4 square: 0.06000000000000001
+[INFO ] 2020-08-24 17:17:41.305 [main] 27 - Cube id4 volume: 0.0010000000000000002
+[INFO ] 2020-08-24 17:17:41.306 [main] 57 - Cube id4 is not cut by plane YZ.
+[INFO ] 2020-08-24 17:17:41.306 [main] 57 - Cube id4 is not cut by plane XZ.
+[INFO ] 2020-08-24 17:17:41.307 [main] 57 - Cube id4 is not cut by plane XY.
+[INFO ] 2020-08-24 17:17:41.308 [main] 75 - Cube id4 is on plane: true

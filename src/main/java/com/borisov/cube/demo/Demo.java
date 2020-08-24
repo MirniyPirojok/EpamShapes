@@ -40,17 +40,18 @@ public class Demo {
         List<Boolean> areCubesOnPlanes = new ArrayList<>();
         boolean isOnPlane;
 
+        List<double[]> volumesRatioByPlane = new ArrayList<>();
+        double[] volumesRatio;
+
         for (Cube cube : cubes) {
             square = cubeAction.calculateSquare(cube);
             squares.add(square);
             volume = cubeAction.calculateVolume(cube);
             volumes.add(volume);
-            volumeRatioXY = cubeAction.volumesRatioByXY(cube);
-            volumesRatioByXY.add(volumeRatioXY);
-            volumeRatioYZ = cubeAction.volumesRatioByYZ(cube);
-            volumesRatioByYZ.add(volumeRatioYZ);
-            volumeRatioXZ = cubeAction.volumesRatioByXZ(cube);
-            volumesRatioByXZ.add(volumeRatioXZ);
+
+            volumesRatio = cubeAction.ratioBetweenVolumes(cube);
+            volumesRatioByPlane.add(volumesRatio);
+
             isOnPlane = cubeAction.isOnPlane(cube);
             areCubesOnPlanes.add(isOnPlane);
         }
