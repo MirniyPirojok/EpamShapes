@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CubeDataParser {
-    static final String REGEX_DELIMITER = "\\s+";
+    static final String SPACE_DELIMITER = "\\s+";
     static Logger logger = LogManager.getLogger();
 
     private List<Double> parseLineToDouble(String line) {
-        line = line.trim();
-        String[] valuesStr = line.split(REGEX_DELIMITER);
+        line = line.strip();
+        String[] valuesStr = line.split(SPACE_DELIMITER);
         List<Double> values = new ArrayList<>();
         double value;
 
