@@ -6,9 +6,6 @@ import org.apache.logging.log4j.Logger;
 
 public class CubeAction {
     static Logger logger = LogManager.getLogger();
-    static final String VOLUMES_RATIO = "Cube id%d volumes ratio by plane %s: %s";
-    static final String CUBE_NOT_CUT = "Cube id%d is not cut by plane %s.";
-
 
     public double calculateArea(Cube cube) {
         int surfacesCount = 6;
@@ -34,10 +31,10 @@ public class CubeAction {
             double cutSide1 = -z;
             double cutSide2 = side + z;
             String volumesRatioByXY = (side * side * cutSide1 + " : " + side * side * cutSide2);
-            logger.info(String.format(VOLUMES_RATIO, cubeId, XY, volumesRatioByXY));
+            logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, XY, volumesRatioByXY));
             return volumesRatioByXY;
         }
-        logger.info(String.format(CUBE_NOT_CUT, cubeId, XY));
+        logger.info(String.format("Cube id%d is not cut by plane %s.", cubeId, XY));
         return null;
     }
 
@@ -51,10 +48,10 @@ public class CubeAction {
             double cutSide1 = -x;
             double cutSide2 = side + x;
             String volumesRatioByYZ = (side * side * cutSide1 + " : " + side * side * cutSide2);
-            logger.info(String.format(VOLUMES_RATIO, cubeId, YZ, volumesRatioByYZ));
+            logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, YZ, volumesRatioByYZ));
             return volumesRatioByYZ;
         }
-        logger.info(String.format(CUBE_NOT_CUT, cubeId, YZ));
+        logger.info(String.format("Cube id%d is not cut by plane %s.", cubeId, YZ));
         return null;
     }
 
@@ -70,10 +67,10 @@ public class CubeAction {
             double part1Volume = calculatePartVolume(cube, cutSide1);
             double part2Volume = calculatePartVolume(cube, cutSide2);
             String volumesRatioByXZ = (part1Volume + " : " + part2Volume);
-            logger.info(String.format(VOLUMES_RATIO, cubeId, XZ, volumesRatioByXZ));
+            logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, XZ, volumesRatioByXZ));
             return volumesRatioByXZ;
         }
-        logger.info(String.format(CUBE_NOT_CUT, cubeId, XZ));
+        logger.info(String.format("Cube id%d is not cut by plane %s.", cubeId, XZ));
         return null;
     }
 
