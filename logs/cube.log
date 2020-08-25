@@ -1,4 +1,43 @@
-2020-08-25 18:13:21.055 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #1
-2020-08-25 18:13:21.073 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #2 is parsed
-2020-08-25 18:13:21.073 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #3
-2020-08-25 18:13:21.074 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #4 is parsed
+2020-08-25 18:28:16.947 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #1
+2020-08-25 18:28:16.962 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #2 is parsed
+2020-08-25 18:28:16.963 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #3
+2020-08-25 18:28:16.964 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #4 is parsed
+2020-08-25 18:28:24.899 [main] [INFO ] com.borisov.cube.reader.CubeDataReader - File was read
+2020-08-25 18:28:24.908 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #1
+2020-08-25 18:28:24.909 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #2 is parsed
+2020-08-25 18:28:24.909 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #3
+2020-08-25 18:28:24.912 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #4
+2020-08-25 18:28:24.913 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #5 is parsed
+2020-08-25 18:28:24.914 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #6 is parsed
+2020-08-25 18:28:24.914 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #7
+2020-08-25 18:28:24.914 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #8 is parsed
+2020-08-25 18:28:24.915 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #9
+2020-08-25 18:28:24.917 [main] [INFO ] com.borisov.cube.creator.CubeListCreator - {cubeId=1, vertex(x=1.0, y=2.0, z=3.0), side=4.0}
+2020-08-25 18:28:24.918 [main] [INFO ] com.borisov.cube.creator.CubeListCreator - {cubeId=2, vertex(x=-4.0, y=-4.0, z=-4.0), side=7.0}
+2020-08-25 18:28:24.918 [main] [INFO ] com.borisov.cube.creator.CubeListCreator - {cubeId=3, vertex(x=-4.0, y=0.0, z=-4.0), side=8.0}
+2020-08-25 18:28:24.918 [main] [INFO ] com.borisov.cube.creator.CubeListCreator - {cubeId=4, vertex(x=0.0, y=0.0, z=0.0), side=0.1}
+2020-08-25 18:28:24.918 [main] [INFO ] com.borisov.cube.creator.CubeListCreator - Cube list is created.
+2020-08-25 18:28:24.920 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 area: 96.0
+2020-08-25 18:28:24.921 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 volume: 64.0
+2020-08-25 18:28:24.921 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 is not cut by plane XY.
+2020-08-25 18:28:24.921 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 is not cut by plane YZ.
+2020-08-25 18:28:24.922 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 is not cut by plane XZ.
+2020-08-25 18:28:24.922 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 is on plane: false
+2020-08-25 18:28:24.922 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 area: 294.0
+2020-08-25 18:28:24.922 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 volume: 343.0
+2020-08-25 18:28:24.923 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 volumes ratio by plane XY: 196.0 : 147.0
+2020-08-25 18:28:24.923 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 volumes ratio by plane YZ: 196.0 : 147.0
+2020-08-25 18:28:24.923 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 volumes ratio by plane XZ: 196.0 : 147.0
+2020-08-25 18:28:24.924 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id2 is on plane: false
+2020-08-25 18:28:24.924 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 area: 384.0
+2020-08-25 18:28:24.924 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 volume: 512.0
+2020-08-25 18:28:24.924 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 volumes ratio by plane XY: 256.0 : 256.0
+2020-08-25 18:28:24.925 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 volumes ratio by plane YZ: 256.0 : 256.0
+2020-08-25 18:28:24.925 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 is not cut by plane XZ.
+2020-08-25 18:28:24.925 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id3 is on plane: true
+2020-08-25 18:28:24.926 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 area: 0.06000000000000001
+2020-08-25 18:28:24.927 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 volume: 0.0010000000000000002
+2020-08-25 18:28:24.927 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 is not cut by plane XY.
+2020-08-25 18:28:24.927 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 is not cut by plane YZ.
+2020-08-25 18:28:24.928 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 is not cut by plane XZ.
+2020-08-25 18:28:24.928 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id4 is on plane: true

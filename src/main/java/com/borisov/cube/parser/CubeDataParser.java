@@ -27,7 +27,7 @@ public class CubeDataParser {
 
     public List<List<Double>> parseData(List<String> lines) throws CustomException {
         if (lines.isEmpty()) {
-            logger.fatal("There is no data for parsing.");
+            logger.error("There is no data for parsing.");
             throw new CustomException("There is no data for parsing.");
         }
 

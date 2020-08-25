@@ -20,7 +20,7 @@ public class CubeDataReader {
             lines = bufferedReader.lines().collect(Collectors.toList());
             logger.info("File was read");
         } catch (IOException e) {
-            logger.fatal("Cannot read file.", e);
+            logger.error("Cannot read file.", e);
             throw new CustomException(e);
         }
         return lines;
