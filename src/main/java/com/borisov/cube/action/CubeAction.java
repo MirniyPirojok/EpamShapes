@@ -9,6 +9,7 @@ public class CubeAction {
     static final String VOLUMES_RATIO = "Cube id%d volumes ratio by plane %s: %s";
     static final String CUBE_NOT_CUT = "Cube id%d is not cut by plane %s.";
 
+
     public double calculateArea(Cube cube) {
         int surfacesCount = 6;
         double area = (surfacesCount * cube.getSide() * cube.getSide());

@@ -60,41 +60,41 @@ public class CubeActionTest {
     }
 
     @Test
-    public void volumesRatioByXYPositiveTest(){
+    public void volumesRatioByXYPositiveTest() {
         String expected = "256.0 : 256.0";
         String actual = cubeAction.volumesRatioByXY(testCube);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void volumesRatioByYZPositiveTest(){
+    public void volumesRatioByYZPositiveTest() {
         String expected = "256.0 : 256.0";
         String actual = cubeAction.volumesRatioByYZ(testCube);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void volumesRatioByXZPositiveTest(){
+    public void volumesRatioByXZPositiveTest() {
         String actual = cubeAction.volumesRatioByXZ(testCube);
         Assert.assertNull(actual);
     }
 
     @Test
-    public void volumesRatioByXYNegativeTest(){
+    public void volumesRatioByXYNegativeTest() {
         String expected = "156.0 : 156.0";
         String actual = cubeAction.volumesRatioByXY(testCube);
         Assert.assertNotEquals(expected, actual);
     }
 
     @Test
-    public void volumesRatioByYZNegativeTest(){
+    public void volumesRatioByYZNegativeTest() {
         String expected = "356.0 : 356.0";
         String actual = cubeAction.volumesRatioByYZ(testCube);
         Assert.assertNotEquals(expected, actual);
     }
 
     @Test
-    public void volumesRatioByXZNegativeTest(){
+    public void volumesRatioByXZNegativeTest() {
         String expected = "256.0 : 256.0";
         String actual = cubeAction.volumesRatioByXZ(testCube);
         Assert.assertNotEquals(expected, actual);

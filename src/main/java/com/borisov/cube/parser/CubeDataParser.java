@@ -12,7 +12,7 @@ public class CubeDataParser {
     static final String REGEX_DELIMITER = "\\s+";
     static Logger logger = LogManager.getLogger();
 
-    public List<Double> parseLineToDouble(String line) {
+    private List<Double> parseLineToDouble(String line) {
         line = line.trim();
         String[] valuesStr = line.split(REGEX_DELIMITER);
         List<Double> values = new ArrayList<>();
@@ -26,12 +26,12 @@ public class CubeDataParser {
     }
 
     public List<List<Double>> parseData(List<String> lines) throws CustomException {
-        List<List<Double>> valuesList = new ArrayList<>();
-
         if (lines.isEmpty()) {
             logger.fatal("There is no data for parsing.");
             throw new CustomException("There is no data for parsing.");
         }
+
+        List<List<Double>> valuesList = new ArrayList<>();
 
         ValueValidator valueValidator = new ValueValidator();
         long lineNumber = 0;
