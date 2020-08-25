@@ -9,12 +9,11 @@ public class CubeAction {
     static final String VOLUMES_RATIO = "Cube id%d volumes ratio by plane %s: %s";
     static final String CUBE_NOT_CUT = "Cube id%d is not cut by plane %s.";
 
-
-    public double calculateSquare(Cube cube) {
-        int surfacesNumber = 6;
-        double square = (surfacesNumber * cube.getSide() * cube.getSide());
-        logger.info(String.format("Cube id%d square: %s", cube.getCubeId(), square));
-        return square;
+    public double calculateArea(Cube cube) {
+        int surfacesCount = 6;
+        double area = (surfacesCount * cube.getSide() * cube.getSide());
+        logger.info(String.format("Cube id%d area: %s", cube.getCubeId(), area));
+        return area;
     }
 
     public double calculateVolume(Cube cube) {
@@ -24,40 +23,60 @@ public class CubeAction {
         return volume;
     }
 
-    //TODO: fill arrays in a different way, may be use Map
-    public double[] ratioBetweenVolumes(Cube cube) {
-        int planesCount = 3;
-        double[] coordinates = new double[planesCount];
-        coordinates[0] = cube.getVertex().getX();
-        coordinates[1] = cube.getVertex().getY();
-        coordinates[2] = cube.getVertex().getZ();
-
-        String[] planes = new String[planesCount];
-        planes[0] = "YZ";
-        planes[1] = "XZ";
-        planes[2] = "XY";
-
-        double[] volumesRatioArray = new double[planesCount];
-
+    public String volumesRatioByXY(Cube cube) {
+        double z = cube.getVertex().getZ();
         double side = cube.getSide();
         long cubeId = cube.getCubeId();
+        final String XY = "XY";
 
-        for (int i = 0; i < planesCount; i++) {
-            if (coordinates[i] < 0 && -coordinates[i] < side) {
-                double cutSide1 = -coordinates[i];
-                double cutSide2 = side + coordinates[i];
-                double part1Volume = countPartVolume(cube, cutSide1);
-                double part2Volume = countPartVolume(cube, cutSide2);
-                volumesRatioArray[i] = (part1Volume / part2Volume);
-                logger.info(String.format(VOLUMES_RATIO, cubeId, planes[i], volumesRatioArray[i]));
-            } else {
-                logger.info(String.format(CUBE_NOT_CUT, cubeId, planes[i]));
-            }
+        if (z < 0 && -z < side) {
+            double cutSide1 = -z;
+            double cutSide2 = side + z;
+            String volumesRatioByXY = (side * side * cutSide1 + " : " + side * side * cutSide2);
+            logger.info(String.format(VOLUMES_RATIO, cubeId, XY, volumesRatioByXY));
+            return volumesRatioByXY;
         }
-        return volumesRatioArray;
+        logger.info(String.format(CUBE_NOT_CUT, cubeId, XY));
+        return null;
     }
 
-    private double countPartVolume(Cube cube, double cutSide) {
+    public String volumesRatioByYZ(Cube cube) {
+        double x = cube.getVertex().getX();
+        double side = cube.getSide();
+        long cubeId = cube.getCubeId();
+        final String YZ = "YZ";
+
+        if (x < 0 && -x < side) {
+            double cutSide1 = -x;
+            double cutSide2 = side + x;
+            String volumesRatioByYZ = (side * side * cutSide1 + " : " + side * side * cutSide2);
+            logger.info(String.format(VOLUMES_RATIO, cubeId, YZ, volumesRatioByYZ));
+            return volumesRatioByYZ;
+        }
+        logger.info(String.format(CUBE_NOT_CUT, cubeId, YZ));
+        return null;
+    }
+
+    public String volumesRatioByXZ(Cube cube) {
+        double y = cube.getVertex().getY();
+        double side = cube.getSide();
+        long cubeId = cube.getCubeId();
+        final String XZ = "XZ";
+
+        if (y < 0 && -y < side) {
+            double cutSide1 = -y;
+            double cutSide2 = side + y;
+            double part1Volume = calculatePartVolume(cube, cutSide1);
+            double part2Volume = calculatePartVolume(cube, cutSide2);
+            String volumesRatioByXZ = (part1Volume + " : " + part2Volume);
+            logger.info(String.format(VOLUMES_RATIO, cubeId, XZ, volumesRatioByXZ));
+            return volumesRatioByXZ;
+        }
+        logger.info(String.format(CUBE_NOT_CUT, cubeId, XZ));
+        return null;
+    }
+
+    private double calculatePartVolume(Cube cube, double cutSide) {
         double side = cube.getSide();
         return side * side * cutSide;
     }

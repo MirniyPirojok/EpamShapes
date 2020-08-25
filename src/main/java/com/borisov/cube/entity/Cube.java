@@ -12,6 +12,10 @@ public class Cube {
     public Cube() {
     }
 
+    public Cube(Point vertex) {
+        this.vertex = vertex;
+    }
+
     public Cube(Point vertex, double side) {
         this.cubeId = IdGenerator.generateId();
         this.vertex = vertex;
