@@ -11,7 +11,7 @@ import java.util.List;
 public class CubeListCreator {
     static Logger logger = LogManager.getLogger();
 
-    public Cube createCube(List<Double> values) {
+    public Cube create(List<Double> values) {
         double x = values.get(0);
         double y = values.get(1);
         double z = values.get(2);
@@ -27,7 +27,7 @@ public class CubeListCreator {
     public List<Cube> createCubes(List<List<Double>> valuesList) {
         List<Cube> cubes = new ArrayList<>();
         for (List<Double> values : valuesList) {
-            Cube cube = createCube(values);
+            Cube cube = create(values);
             cubes.add(cube);
         }
 

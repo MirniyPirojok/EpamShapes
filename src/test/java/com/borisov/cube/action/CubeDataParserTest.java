@@ -3,6 +3,8 @@ package com.borisov.cube.action;
 import com.borisov.cube.exception.CustomException;
 import com.borisov.cube.parser.CubeDataParser;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -10,12 +12,24 @@ import java.util.List;
 
 public class CubeDataParserTest {
 
+    List<String> incomingData;
+    CubeDataParser cubeDataParser;
+
+    @BeforeMethod
+    public void setUp(){
+        incomingData = new ArrayList<>();
+        cubeDataParser = new CubeDataParser();
+    }
+
+    @AfterMethod
+    public void tierDown(){
+        incomingData = null;
+        cubeDataParser = null;
+    }
+
     @Test
-    public void parseDataTest() throws CustomException {
-        List<String> incomingData = new ArrayList<>();
-        incomingData.add("aa fdf 44");
+    public void parseDataPositiveTest() throws CustomException {
         incomingData.add("1.0 2.0 3.0 4.0");
-        incomingData.add("1 2 3 4");
         incomingData.add("-4.0 -4.0 -4.0 7.0");
 
         List<Double> outgoingLine1 = new ArrayList<>();
@@ -40,4 +54,18 @@ public class CubeDataParserTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void parseDataWrongDataNegativeTest() throws CustomException {
+        incomingData.add("aa fdf 44");
+        incomingData.add("1 2 3 4");
+
+        List<List<Double>> actual = cubeDataParser.parseData(incomingData);
+
+        Assert.assertTrue(actual.isEmpty());
+    }
+
+    @Test (expectedExceptions = CustomException.class)
+    public void parseDataNoDataNegativeTest() throws CustomException {
+        cubeDataParser.parseData(incomingData);
+    }
 }
