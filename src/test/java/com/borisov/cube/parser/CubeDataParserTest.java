@@ -1,9 +1,10 @@
-package com.borisov.cube.action;
+package com.borisov.cube.parser;
 
 import com.borisov.cube.exception.CustomException;
-import com.borisov.cube.parser.CubeDataParser;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -15,16 +16,24 @@ public class CubeDataParserTest {
     List<String> incomingData;
     CubeDataParser cubeDataParser;
 
-    @BeforeMethod
-    public void setUp(){
-        incomingData = new ArrayList<>();
+    @BeforeClass
+    public void setUpClass() {
         cubeDataParser = new CubeDataParser();
     }
 
-    @AfterMethod
-    public void tierDown(){
-        incomingData = null;
+    @AfterClass
+    public void tierDownClass() {
         cubeDataParser = null;
+    }
+
+    @BeforeMethod
+    public void setUpMethod() {
+        incomingData = new ArrayList<>();
+    }
+
+    @AfterMethod
+    public void tierDownMethod() {
+        incomingData = null;
     }
 
     @Test
@@ -48,14 +57,13 @@ public class CubeDataParserTest {
         expected.add(outgoingLine1);
         expected.add(outgoingLine2);
 
-        CubeDataParser cubeDataParser = new CubeDataParser();
         List<List<Double>> actual = cubeDataParser.parseData(incomingData);
 
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void parseDataWrongDataNegativeTest() throws CustomException {
+    public void parseWrongDataNegativeTest() throws CustomException {
         incomingData.add("aa fdf 44");
         incomingData.add("1 2 3 4");
 
@@ -64,8 +72,8 @@ public class CubeDataParserTest {
         Assert.assertTrue(actual.isEmpty());
     }
 
-    @Test (expectedExceptions = CustomException.class)
-    public void parseDataNoDataNegativeTest() throws CustomException {
+    @Test(expectedExceptions = CustomException.class)
+    public void parseNoDataNegativeTest() throws CustomException {
         cubeDataParser.parseData(incomingData);
     }
 }

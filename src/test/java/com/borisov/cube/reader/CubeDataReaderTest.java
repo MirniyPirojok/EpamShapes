@@ -1,7 +1,6 @@
-package com.borisov.cube.action;
+package com.borisov.cube.reader;
 
 import com.borisov.cube.exception.CustomException;
-import com.borisov.cube.reader.CubeDataReader;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -22,7 +21,8 @@ public class CubeDataReaderTest {
     public void setUp() {
         testFile = new File("testData.txt");
         cubeDataReader = new CubeDataReader();
-        try (FileWriter fileWriter = new FileWriter(testFile, true)) {
+
+        try (FileWriter fileWriter = new FileWriter(testFile)) {
             fileWriter.write("1.0 2.0 3.0 4.0");
         } catch (IOException ex) {
             ex.printStackTrace();
