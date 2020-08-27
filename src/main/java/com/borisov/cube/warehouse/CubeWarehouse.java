@@ -30,6 +30,10 @@ public class CubeWarehouse {
         return parametersMap.putIfAbsent(cubeId, cubeParameters);
     }
 
+    public void putAll(Map<? extends Long, ? extends CubeParameters> m) {
+        parametersMap.putAll(m);
+    }
+
     public CubeParameters remove(Long cubeId) {
         return parametersMap.remove(cubeId);
     }

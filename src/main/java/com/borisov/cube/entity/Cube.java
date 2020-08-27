@@ -1,15 +1,18 @@
 package com.borisov.cube.entity;
 
 import com.borisov.cube.generator.IdGenerator;
-import com.borisov.cube.observer.Observable;
 import com.borisov.cube.observer.Observer;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cube implements Observable {
+public class Cube {
+    Logger logger = LogManager.getLogger();
+
     private long cubeId;
     private Point vertex;
     private double side;
@@ -53,6 +56,7 @@ public class Cube implements Observable {
     public void setSide(double side) {
         this.side = side;
         notifyObservers();
+        logger.info(String.format("Side of cube id%d was changed to %s", this.cubeId, this.side));
     }
 
     @Override
@@ -89,17 +93,14 @@ public class Cube implements Observable {
         return sb.toString();
     }
 
-    @Override
     public void attach(Observer observer) {
         observers.add(observer);
     }
 
-    @Override
     public void detach(Observer observer) {
         observers.remove(observer);
     }
 
-    @Override
     public void notifyObservers() {
         for (Observer observer : observers) {
             observer.actionPerformed(this);
