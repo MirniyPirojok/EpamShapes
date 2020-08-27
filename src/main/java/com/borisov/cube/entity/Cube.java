@@ -38,6 +38,7 @@ public class Cube {
     public void setCubeId(long cubeId) {
         this.cubeId = cubeId;
         notifyObservers();
+        logger.info(String.format("Id of cube id%d was set to %s", this.cubeId, this.cubeId));
     }
 
     public Point getVertex() {
@@ -47,6 +48,8 @@ public class Cube {
     public void setVertex(Point vertex) {
         this.vertex = vertex;
         notifyObservers();
+        logger.info(String.format("Vertex of cube id%d was set to %s", this.cubeId, this.vertex));
+
     }
 
     public double getSide() {
@@ -56,7 +59,7 @@ public class Cube {
     public void setSide(double side) {
         this.side = side;
         notifyObservers();
-        logger.info(String.format("Side of cube id%d was changed to %s", this.cubeId, this.side));
+        logger.info(String.format("Side of cube id%d was set to %s", this.cubeId, this.side));
     }
 
     @Override

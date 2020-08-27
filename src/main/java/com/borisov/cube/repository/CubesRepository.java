@@ -51,6 +51,7 @@ public class CubesRepository {
     }
 
     public void clear() {
+        logger.info("Cubes repository was cleared.");
         repositoryCubeList.clear();
     }
 
