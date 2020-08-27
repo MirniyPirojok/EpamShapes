@@ -30,7 +30,9 @@ public class CubeAction {
         if (z < 0 && -z < side) {
             double cutSide1 = -z;
             double cutSide2 = side + z;
-            String volumesRatioByXY = (side * side * cutSide1 + " : " + side * side * cutSide2);
+            double part1Volume = calculatePartVolume(cube, cutSide1);
+            double part2Volume = calculatePartVolume(cube, cutSide2);
+            String volumesRatioByXY = (part1Volume + " : " + part2Volume);
             logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, XY, volumesRatioByXY));
             return volumesRatioByXY;
         }
@@ -47,7 +49,9 @@ public class CubeAction {
         if (x < 0 && -x < side) {
             double cutSide1 = -x;
             double cutSide2 = side + x;
-            String volumesRatioByYZ = (side * side * cutSide1 + " : " + side * side * cutSide2);
+            double part1Volume = calculatePartVolume(cube, cutSide1);
+            double part2Volume = calculatePartVolume(cube, cutSide2);
+            String volumesRatioByYZ = (part1Volume + " : " + part2Volume);
             logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, YZ, volumesRatioByYZ));
             return volumesRatioByYZ;
         }
@@ -73,39 +77,6 @@ public class CubeAction {
         logger.info(String.format("Cube id%d is not cut by plane %s.", cubeId, XZ));
         return null;
     }
-
-//    //TODO: to do this method better, fill arrays in a different way, may be use Map
-//    public double[] ratioBetweenVolumes(Cube cube) {
-//        int planesCount = 3;
-//        double[] coordinates = new double[planesCount];
-//        coordinates[0] = cube.getVertex().getX();
-//        coordinates[1] = cube.getVertex().getY();
-//        coordinates[2] = cube.getVertex().getZ();
-//
-//        String[] planes = new String[planesCount];
-//        planes[0] = "YZ";
-//        planes[1] = "XZ";
-//        planes[2] = "XY";
-//
-//        double[] volumesRatioArray = new double[planesCount];
-//
-//        double side = cube.getSide();
-//        long cubeId = cube.getCubeId();
-//
-//        for (int i = 0; i < planesCount; i++) {
-//            if (coordinates[i] < 0 && -coordinates[i] < side) {
-//                double cutSide1 = -coordinates[i];
-//                double cutSide2 = side + coordinates[i];
-//                double part1Volume = calculatePartVolume(cube, cutSide1);
-//                double part2Volume = calculatePartVolume(cube, cutSide2);
-//                volumesRatioArray[i] = (part1Volume / part2Volume);
-//                logger.info(String.format(VOLUMES_RATIO, cubeId, planes[i], volumesRatioArray[i]));
-//            } else {
-//                logger.info(String.format(CUBE_NOT_CUT, cubeId, planes[i]));
-//            }
-//        }
-//        return volumesRatioArray;
-//    }
 
     private double calculatePartVolume(Cube cube, double cutSide) {
         double side = cube.getSide();

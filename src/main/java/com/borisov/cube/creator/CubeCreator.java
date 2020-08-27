@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CubeListCreator {
+public class CubeCreator {
     static Logger logger = LogManager.getLogger();
 
     public Cube create(List<Double> values) {

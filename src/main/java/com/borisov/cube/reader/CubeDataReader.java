@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
@@ -19,9 +20,14 @@ public class CubeDataReader {
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             lines = bufferedReader.lines().collect(Collectors.toList());
             logger.info("File was read");
+
+        } catch (FileNotFoundException e) {
+            logger.error("File not found.", e);
+            throw new CustomException("File not found.", e);
+
         } catch (IOException e) {
             logger.error("Cannot read file.", e);
-            throw new CustomException(e);
+            throw new CustomException("Cannot read file.", e);
         }
         return lines;
     }
