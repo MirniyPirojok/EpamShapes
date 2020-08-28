@@ -38,6 +38,10 @@ public class Point {
         this.z = z;
     }
 
+    public double[] getCoordinates() { //for calculating ratio between volumes
+        return new double[]{getX(), getY(), getZ()};
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

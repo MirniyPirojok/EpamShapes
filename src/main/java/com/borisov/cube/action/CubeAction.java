@@ -21,42 +21,27 @@ public class CubeAction {
         return volume;
     }
 
-    //    //TODO: to do this method better, to fill arrays in a different way, may be use Map
-    public double[] ratioBetweenVolumes(Cube cube) {
-        int planesCount = 3;
-        double[] coordinates = new double[planesCount];
-        coordinates[0] = cube.getVertex().getX();
-        coordinates[1] = cube.getVertex().getY();
-        coordinates[2] = cube.getVertex().getZ();
+    //TODO: to do this method better
+    static final int PLANES_COUNT = 3;
 
-        String[] planes = new String[planesCount];
-        planes[0] = "YZ";
-        planes[1] = "XZ";
-        planes[2] = "XY";
+    public double[] volumesRatio(Cube cube) {
+        double[] coordinates = cube.getVertex().getCoordinates();
+        double[] ratioArray = new double[PLANES_COUNT];
 
-        double[] volumesRatioArray = new double[planesCount];
-
-        double side = cube.getSide();
-        long cubeId = cube.getCubeId();
-
-        for (int i = 0; i < planesCount; i++) {
-            if (coordinates[i] < 0 && -coordinates[i] < side) {
-                double cutSide1 = -coordinates[i];
-                double cutSide2 = side + coordinates[i];
-                double part1Volume = calculatePartVolume(cube, cutSide1);
-                double part2Volume = calculatePartVolume(cube, cutSide2);
-                volumesRatioArray[i] = (part1Volume / part2Volume);
-                logger.info(String.format("Cube id%d volumes ratio by plane %s: %s", cubeId, planes[i], volumesRatioArray[i]));
-            } else {
-                logger.info(String.format("Cube id%d is not cut by plane %s.", cubeId, planes[i]));
+        for (int i = 0; i < PLANES_COUNT; i++) {
+            if (coordinates[i] < 0 && -coordinates[i] < cube.getSide()) {
+                ratioArray[i] = calculateRatio(cube, coordinates[i]);
             }
         }
-        return volumesRatioArray;
+        return ratioArray;
     }
 
-    private double calculatePartVolume(Cube cube, double cutSide) {
-        double side = cube.getSide();
-        return side * side * cutSide;
+    private double calculateRatio(Cube cube, double coordinate) {
+        double cutSide1 = -coordinate;
+        double cutSide2 = cube.getSide() + coordinate;
+        return cutSide1 / cutSide2;
+        //sides ratio is equal to volumes ratio
+        // because we count that cube is always parallel to plane
     }
 
     public boolean isOnPlane(Cube cube) {

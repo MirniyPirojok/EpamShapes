@@ -60,16 +60,16 @@ public class CubeActionTest {
     }
 
     @Test
-    public void ratioBetweenVolumesPositiveTest() {
+    public void volumesRatioPositiveTest() {
         double[] expected = {1.0, 0, 1.0};
-        double[] actual = cubeAction.ratioBetweenVolumes(testCube);
+        double[] actual = cubeAction.volumesRatio(testCube);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void ratioBetweenVolumesNegativeTest() {
+    public void volumesRatioNegativeTest() {
         double[] expected = {0, 0, 0};
-        double[] actual = cubeAction.ratioBetweenVolumes(testCube);
+        double[] actual = cubeAction.volumesRatio(testCube);
         Assert.assertNotEquals(expected, actual);
     }
 }

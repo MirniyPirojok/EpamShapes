@@ -18,14 +18,14 @@ public class CubeDataReaderTest {
     CubeDataReader cubeDataReader;
 
     @BeforeClass
-    public void setUp() {
+    public void setUp() throws CustomException {
         testFile = new File("testData.txt");
         cubeDataReader = new CubeDataReader();
 
         try (FileWriter fileWriter = new FileWriter(testFile)) {
             fileWriter.write("1.0 2.0 3.0 4.0");
         } catch (IOException ex) {
-            ex.printStackTrace();
+            throw new CustomException("Data is not written.");
         }
     }
 
