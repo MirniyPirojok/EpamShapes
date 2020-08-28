@@ -1,7 +1,8 @@
-package com.borisov.cube.observer;
+package com.borisov.cube.observer.impl;
 
 import com.borisov.cube.action.CubeAction;
 import com.borisov.cube.entity.Cube;
+import com.borisov.cube.observer.Observer;
 import com.borisov.cube.warehouse.CubeParameters;
 import com.borisov.cube.warehouse.CubeWarehouse;
 

@@ -2,7 +2,7 @@ package com.borisov.cube.repository;
 
 import com.borisov.cube.comparator.CubeComparator;
 import com.borisov.cube.entity.Cube;
-import com.borisov.cube.specification.Specification;
+import com.borisov.cube.specification.CubeSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,10 +25,10 @@ public class CubesRepository {
         return instance;
     }
 
-    public List<Cube> query(Specification specification) {
+    public List<Cube> query(CubeSpecification cubeSpecification) {
         List<Cube> resultListCube = new ArrayList<>();
         for (Cube cube : repositoryCubeList) {
-            if (specification.specify(cube)) {
+            if (cubeSpecification.specify(cube)) {
                 resultListCube.add(cube);
             }
         }

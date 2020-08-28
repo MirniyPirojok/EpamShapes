@@ -1,12 +1,12 @@
 package com.borisov.cube.specification.impl;
 
 import com.borisov.cube.entity.Cube;
-import com.borisov.cube.specification.Specification;
+import com.borisov.cube.specification.CubeSpecification;
 
-public class SpecificationById implements Specification {
-    private long id;
+public class CubeSpecificationById implements CubeSpecification {
+    private final long id;
 
-    public SpecificationById(long id) {
+    public CubeSpecificationById(long id) {
         this.id = id;
     }
 

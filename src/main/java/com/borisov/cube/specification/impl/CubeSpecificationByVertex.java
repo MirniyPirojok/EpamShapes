@@ -2,12 +2,12 @@ package com.borisov.cube.specification.impl;
 
 import com.borisov.cube.entity.Cube;
 import com.borisov.cube.entity.Point;
-import com.borisov.cube.specification.Specification;
+import com.borisov.cube.specification.CubeSpecification;
 
-public class SpecificationByVertex implements Specification {
-    Point vertex;
+public class CubeSpecificationByVertex implements CubeSpecification {
+    private final Point vertex;
 
-    public SpecificationByVertex(Point vertex) {
+    public CubeSpecificationByVertex(Point vertex) {
         this.vertex = vertex;
     }
 

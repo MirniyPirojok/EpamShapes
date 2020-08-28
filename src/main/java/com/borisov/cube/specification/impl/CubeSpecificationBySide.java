@@ -1,12 +1,12 @@
 package com.borisov.cube.specification.impl;
 
 import com.borisov.cube.entity.Cube;
-import com.borisov.cube.specification.Specification;
+import com.borisov.cube.specification.CubeSpecification;
 
-public class SpecificationBySide implements Specification {
-    double minimalSideSize;
+public class CubeSpecificationBySide implements CubeSpecification {
+    private final double minimalSideSize;
 
-    public SpecificationBySide(double minimalSideSize) {
+    public CubeSpecificationBySide(double minimalSideSize) {
         this.minimalSideSize = minimalSideSize;
     }
 

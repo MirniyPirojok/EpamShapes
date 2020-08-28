@@ -38,7 +38,9 @@ public class CubeDataReaderTest {
     public void readDataPositiveTest() throws CustomException {
         List<String> expected = new ArrayList<>();
         expected.add("1.0 2.0 3.0 4.0");
-        List<String> actual = cubeDataReader.readData(testFile.getPath());
+
+        String filePath = testFile.getPath();
+        List<String> actual = cubeDataReader.readData(filePath);
 
         Assert.assertEquals(expected, actual);
     }

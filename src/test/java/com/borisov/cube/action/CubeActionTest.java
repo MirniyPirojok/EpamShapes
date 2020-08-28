@@ -60,43 +60,16 @@ public class CubeActionTest {
     }
 
     @Test
-    public void volumesRatioByXYPositiveTest() {
-        String expected = "256.0 : 256.0";
-        String actual = cubeAction.volumesRatioByXY(testCube);
+    public void ratioBetweenVolumesPositiveTest() {
+        double[] expected = {1.0, 0, 1.0};
+        double[] actual = cubeAction.ratioBetweenVolumes(testCube);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void volumesRatioByYZPositiveTest() {
-        String expected = "256.0 : 256.0";
-        String actual = cubeAction.volumesRatioByYZ(testCube);
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void volumesRatioByXZPositiveTest() {
-        String actual = cubeAction.volumesRatioByXZ(testCube);
-        Assert.assertNull(actual);
-    }
-
-    @Test
-    public void volumesRatioByXYNegativeTest() {
-        String expected = "156.0 : 156.0";
-        String actual = cubeAction.volumesRatioByXY(testCube);
-        Assert.assertNotEquals(expected, actual);
-    }
-
-    @Test
-    public void volumesRatioByYZNegativeTest() {
-        String expected = "356.0 : 356.0";
-        String actual = cubeAction.volumesRatioByYZ(testCube);
-        Assert.assertNotEquals(expected, actual);
-    }
-
-    @Test
-    public void volumesRatioByXZNegativeTest() {
-        String expected = "256.0 : 256.0";
-        String actual = cubeAction.volumesRatioByXZ(testCube);
+    public void ratioBetweenVolumesNegativeTest() {
+        double[] expected = {0, 0, 0};
+        double[] actual = cubeAction.ratioBetweenVolumes(testCube);
         Assert.assertNotEquals(expected, actual);
     }
 }

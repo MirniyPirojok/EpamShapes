@@ -1,6 +1,7 @@
 package com.borisov.cube.entity;
 
 import com.borisov.cube.generator.IdGenerator;
+import com.borisov.cube.observer.Observable;
 import com.borisov.cube.observer.Observer;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
@@ -10,8 +11,8 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cube {
-    Logger logger = LogManager.getLogger();
+public class Cube implements Observable {
+    static Logger logger = LogManager.getLogger();
 
     private long cubeId;
     private Point vertex;
@@ -96,14 +97,17 @@ public class Cube {
         return sb.toString();
     }
 
+    @Override
     public void attach(Observer observer) {
         observers.add(observer);
     }
 
+    @Override
     public void detach(Observer observer) {
         observers.remove(observer);
     }
 
+    @Override
     public void notifyObservers() {
         for (Observer observer : observers) {
             observer.actionPerformed(this);
