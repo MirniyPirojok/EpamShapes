@@ -27,7 +27,7 @@ public class CubeDataReaderTest {
         try (FileWriter fileWriter = new FileWriter(testFile)) {
             fileWriter.write("1.0 2.0 3.0 4.0");
         } catch (IOException ex) {
-            throw new CustomException("Data is not written.");
+            throw new CustomException("Data is not written.", ex);
         }
     }
 

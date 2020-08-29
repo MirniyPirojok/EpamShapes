@@ -61,7 +61,7 @@ public class CubeActionTest {
 
     @Test
     public void volumesRatioPositiveTest() {
-        double[] expected = {1.0, 0, 1.0};
+        double[] expected = {1.0, 0.0, 1.0};
         double[] actual = cubeAction.volumesRatio(testCube);
         Assert.assertEquals(expected, actual);
     }
