@@ -39,7 +39,7 @@ public class Point {
     }
 
     public double[] getCoordinates() { //for calculating ratio between volumes
-        return new double[]{getX(), getY(), getZ()};
+        return new double[]{x, y, z};
     }
 
     @Override

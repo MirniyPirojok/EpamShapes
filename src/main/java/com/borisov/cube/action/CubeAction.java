@@ -7,39 +7,46 @@ import org.apache.logging.log4j.Logger;
 public class CubeAction {
     static Logger logger = LogManager.getLogger();
 
+    static final int SURFACES_COUNT = 6;
+    static final int PLANES_COUNT = 3;
+
     public double calculateArea(Cube cube) {
-        int surfacesCount = 6;
-        double area = (surfacesCount * cube.getSide() * cube.getSide());
+        double area = (SURFACES_COUNT * cube.getSide() * cube.getSide());
         logger.info(String.format("Cube id%d area: %s", cube.getCubeId(), area));
         return area;
     }
 
     public double calculateVolume(Cube cube) {
-        int sidesNumber = 3;
-        double volume = Math.pow(cube.getSide(), sidesNumber);
+        double volume = Math.pow(cube.getSide(), 3);
         logger.info(String.format("Cube id%d volume: %s", cube.getCubeId(), volume));
         return volume;
     }
 
     //TODO: to do this method better
-    static final int PLANES_COUNT = 3;
-
     public double[] volumesRatio(Cube cube) {
         double[] coordinates = cube.getVertex().getCoordinates();
         double[] ratioArray = new double[PLANES_COUNT];
 
         for (int i = 0; i < PLANES_COUNT; i++) {
-            if (coordinates[i] < 0 && -coordinates[i] < cube.getSide()) {
+            if (isCubeCut(cube, coordinates[i])) {
                 ratioArray[i] = calculateRatio(cube, coordinates[i]);
             }
         }
+
+        logger.info(String.format("Cube volumes ratio. By plane YZ: %s. By plane XZ: %s. By plane XY: %s.",
+                ratioArray[0], ratioArray[1], ratioArray[2]));
+
         return ratioArray;
+    }
+
+    private boolean isCubeCut(Cube cube, double coordinate) {
+        return (coordinate < 0) && (-coordinate < cube.getSide());
     }
 
     private double calculateRatio(Cube cube, double coordinate) {
         double cutSide1 = -coordinate;
         double cutSide2 = cube.getSide() + coordinate;
-        return cutSide1 / cutSide2;
+        return (cutSide1 / cutSide2);
         //sides ratio is equal to volumes ratio
         // because we count that cube is always parallel to plane
     }

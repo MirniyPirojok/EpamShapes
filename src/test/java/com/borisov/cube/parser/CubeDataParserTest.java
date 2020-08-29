@@ -38,9 +38,6 @@ public class CubeDataParserTest {
 
     @Test
     public void parseDataPositiveTest() throws CustomException {
-        incomingData.add("1.0 2.0 3.0 4.0");
-        incomingData.add("-4.0 -4.0 -4.0 7.0");
-
         List<Double> outgoingLine1 = new ArrayList<>();
         outgoingLine1.add(1.0);
         outgoingLine1.add(2.0);
@@ -57,6 +54,8 @@ public class CubeDataParserTest {
         expected.add(outgoingLine1);
         expected.add(outgoingLine2);
 
+        incomingData.add("1.0 2.0 3.0 4.0");
+        incomingData.add("-4.0 -4.0 -4.0 7.0");
         List<List<Double>> actual = cubeDataParser.parseData(incomingData);
 
         Assert.assertEquals(expected, actual);
@@ -66,6 +65,7 @@ public class CubeDataParserTest {
     public void parseWrongDataNegativeTest() throws CustomException {
         incomingData.add("aa fdf 44");
         incomingData.add("1 2 3 4");
+        incomingData.add("1.0 2.0 3.0 4.0e2");
 
         List<List<Double>> actual = cubeDataParser.parseData(incomingData);
 

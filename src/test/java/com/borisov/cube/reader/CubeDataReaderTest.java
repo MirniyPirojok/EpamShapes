@@ -16,10 +16,12 @@ public class CubeDataReaderTest {
 
     File testFile;
     CubeDataReader cubeDataReader;
+    String filePath;
 
     @BeforeClass
     public void setUp() throws CustomException {
-        testFile = new File("testData.txt");
+        filePath = "testData.txt";
+        testFile = new File(filePath);
         cubeDataReader = new CubeDataReader();
 
         try (FileWriter fileWriter = new FileWriter(testFile)) {
@@ -39,7 +41,6 @@ public class CubeDataReaderTest {
         List<String> expected = new ArrayList<>();
         expected.add("1.0 2.0 3.0 4.0");
 
-        String filePath = testFile.getPath();
         List<String> actual = cubeDataReader.readData(filePath);
 
         Assert.assertEquals(expected, actual);
