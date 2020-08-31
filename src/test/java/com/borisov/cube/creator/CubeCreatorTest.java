@@ -16,9 +16,9 @@ public class CubeCreatorTest {
     CubeCreator cubeCreator;
     Cube cube1;
     Cube cube2;
-    List<Double> rightValues = new ArrayList<>();
-    List<Double> wrongValues = new ArrayList<>();
-    List<List<Double>> valuesList = new ArrayList<>();
+    List<Double> rightValues;
+    List<Double> wrongValues;
+    List<List<Double>> valuesList;
 
     @BeforeClass
     public void setUp() {
@@ -26,11 +26,13 @@ public class CubeCreatorTest {
         cube1 = new Cube(1L, new Point(1.0, 1.0, 1.0), 1.0);
         cube2 = new Cube(2L, new Point(1.0, 1.0, 1.0), 1.0);
 
+        rightValues = new ArrayList<>();
         rightValues.add(1.0);
         rightValues.add(1.0);
         rightValues.add(1.0);
         rightValues.add(1.0);
 
+        wrongValues = new ArrayList<>();
         wrongValues.add(2.0);
         wrongValues.add(2.0);
         wrongValues.add(2.0);
