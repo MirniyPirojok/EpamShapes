@@ -22,12 +22,14 @@ public class Cube implements Observable {
     public Cube() {
     }
 
-    public Cube(Point vertex) {
-        this.vertex = vertex;
-    }
-
     public Cube(Point vertex, double side) {
         this.cubeId = IdGenerator.generateId();
+        this.vertex = vertex;
+        this.side = side;
+    }
+
+    public Cube(long cubeId, Point vertex, double side) {
+        this.cubeId = cubeId;
         this.vertex = vertex;
         this.side = side;
     }

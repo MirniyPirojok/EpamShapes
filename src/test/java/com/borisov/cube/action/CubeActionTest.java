@@ -60,6 +60,12 @@ public class CubeActionTest {
     }
 
     @Test
+    public void isOnPlaneNegativeTest() {
+        Cube negativeTestCube = new Cube(new Point(1.0, 1.0, 1.0), 1.0);
+        Assert.assertFalse(cubeAction.isOnPlane(negativeTestCube));
+    }
+
+    @Test
     public void volumesRatioPositiveTest() {
         double[] expected = {1.0, 0.0, 1.0};
         double[] actual = cubeAction.volumesRatio(testCube);
