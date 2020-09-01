@@ -1,48 +1,31 @@
 package com.borisov.cube.validator;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class ValueValidatorTest {
-    ValueValidator valueValidator;
 
-    @BeforeClass
-    public void setUp() {
-        valueValidator = new ValueValidator();
+    @Test(dataProvider = "dataForTest")
+    public void isValidLineTest(String string, boolean expected) {
+        ValueValidator valueValidator = new ValueValidator();
+        boolean actual = valueValidator.isValidLine(string);
+        Assert.assertEquals(actual, expected);
     }
 
-    @AfterClass
-    public void tierDown() {
-        valueValidator = null;
-    }
-
-    @Test
-    public void isValidLineTestTrue() {
-        String value = "-0.1 2.0 3.0 4.0";
-        boolean actual = valueValidator.isValidLine(value);
-        Assert.assertTrue(actual);
-    }
-
-    @Test
-    public void isValidLineIntegerTestFalse() {
-        String value = "1 2 3 4";
-        boolean actual = valueValidator.isValidLine(value);
-        Assert.assertFalse(actual);
-    }
-
-    @Test
-    public void isValidLineLettersTestFalse() {
-        String value = "aa bb ss dd";
-        boolean actual = valueValidator.isValidLine(value);
-        Assert.assertFalse(actual);
-    }
-
-    @Test
-    public void isValidLineNegativeSideTestFalse() {
-        String value = "0.1 2.0 3.0 -4.0";
-        boolean actual = valueValidator.isValidLine(value);
-        Assert.assertFalse(actual);
+    @DataProvider(name = "dataForTest")
+    public Object[][] createDataForTest() {
+        return new Object[][]{
+                {"1 1 1 1", false},
+                {"aa bb ss dd", false},
+                {"0.1 2.0 3.0 -4.0", false},
+                {"2.0", false},
+                {"3.0 4.0", false},
+                {"5.0 6.0 5.0", false},
+                {"1.0a 1.0 1.0 1.0", false},
+                {"2.0E2 1.0 1.0 1.0", false},
+                {"7.0 7.0 7.0 7.0", true},
+                {"-0.1 -2.0 -3.0 4.0", true}
+        };
     }
 }

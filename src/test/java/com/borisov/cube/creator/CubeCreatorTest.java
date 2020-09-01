@@ -39,6 +39,12 @@ public class CubeCreatorTest {
         wrongValues.add(2.0);
     }
 
+    @BeforeMethod
+    public void setUpMethod() {
+        IdGenerator.setId(1);
+        valuesList = new ArrayList<>();
+    }
+
     @AfterClass
     public void tierDown() {
         cubeCreator = null;
@@ -48,13 +54,6 @@ public class CubeCreatorTest {
         wrongValues = null;
         valuesList = null;
     }
-
-    @BeforeMethod
-    public void setUpMethod() {
-        IdGenerator.setId(1);
-        valuesList = new ArrayList<>();
-    }
-
 
     @Test
     public void createPositiveTest() {

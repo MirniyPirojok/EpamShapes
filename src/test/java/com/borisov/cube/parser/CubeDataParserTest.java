@@ -73,7 +73,7 @@ public class CubeDataParserTest {
     }
 
     @Test(expectedExceptions = CustomException.class)
-    public void parseNoDataNegativeTest() throws CustomException {
+    public void parseNoDataTest() throws CustomException {
         cubeDataParser.parseData(incomingData);
     }
 }
