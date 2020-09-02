@@ -1,0 +1,23 @@
+2020-09-02 13:37:04.717 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id0 area: 384.0
+2020-09-02 13:37:04.735 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id0 area: 384.0
+2020-09-02 13:37:04.735 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id0 volume: 512.0
+2020-09-02 13:37:04.735 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id0 volume: 512.0
+2020-09-02 13:37:04.735 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id1 is on plane: false
+2020-09-02 13:37:04.735 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube id0 is on plane: true
+2020-09-02 13:37:04.751 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube volumes ratio. By plane YZ: 1.0. By plane XZ: 0.0. By plane XY: 1.0.
+2020-09-02 13:37:04.753 [main] [INFO ] com.borisov.cube.action.CubeAction - Cube volumes ratio. By plane YZ: 1.0. By plane XZ: 0.0. By plane XY: 1.0.
+2020-09-02 13:37:04.769 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=1, vertex(x=1.0, y=1.0, z=1.0), side=1.0}
+2020-09-02 13:37:04.769 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=2, vertex(x=2.0, y=2.0, z=2.0), side=2.0}
+2020-09-02 13:37:04.769 [main] [INFO ] com.borisov.cube.creator.CubeCreator - Cube list is created.
+2020-09-02 13:37:04.785 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=1, vertex(x=1.0, y=1.0, z=1.0), side=1.0}
+2020-09-02 13:37:04.785 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=2, vertex(x=1.0, y=1.0, z=1.0), side=1.0}
+2020-09-02 13:37:04.785 [main] [INFO ] com.borisov.cube.creator.CubeCreator - Cube list is created.
+2020-09-02 13:37:04.785 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=1, vertex(x=2.0, y=2.0, z=2.0), side=2.0}
+2020-09-02 13:37:04.800 [main] [INFO ] com.borisov.cube.creator.CubeCreator - {cubeId=1, vertex(x=1.0, y=1.0, z=1.0), side=1.0}
+2020-09-02 13:37:04.800 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #1 is parsed
+2020-09-02 13:37:04.800 [main] [INFO ] com.borisov.cube.parser.CubeDataParser - Line #2 is parsed
+2020-09-02 13:37:04.800 [main] [ERROR] com.borisov.cube.parser.CubeDataParser - There is no data for parsing.
+2020-09-02 13:37:04.816 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #1
+2020-09-02 13:37:04.816 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #2
+2020-09-02 13:37:04.816 [main] [WARN ] com.borisov.cube.parser.CubeDataParser - Invalid line #3
+2020-09-02 13:37:04.816 [main] [INFO ] com.borisov.cube.reader.CubeDataReader - File was read
