@@ -16,12 +16,7 @@ public class CubeDataReader {
     static Logger logger = LogManager.getLogger();
 
     public List<String> readData(String filePath) throws CustomException {
-        File file;
-        try {
-            file = new File(getClass().getClassLoader().getResource(filePath).getFile());
-        } catch (NullPointerException e){
-            throw new CustomException(e);
-        }
+        File file = new File(getClass().getClassLoader().getResource(filePath).getFile());
 
         List<String> lines;
         try (FileReader fileReader = new FileReader(file);
@@ -31,7 +26,7 @@ public class CubeDataReader {
 
         } catch (FileNotFoundException e) {
             logger.error("File not found.", e);
-            throw new CustomException("File not found.", e);
+            throw new CustomException("File is not found.", e);
 
         } catch (IOException e) {
             logger.error("Cannot read file.", e);
