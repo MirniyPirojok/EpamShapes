@@ -10,13 +10,14 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class CubeDataReader {
     static Logger logger = LogManager.getLogger();
 
     public List<String> readData(String filePath) throws CustomException {
-        File file = new File(getClass().getClassLoader().getResource(filePath).getFile());
+        File file = new File(Objects.requireNonNull(getClass().getClassLoader().getResource(filePath)).getFile());
 
         List<String> lines;
         try (FileReader fileReader = new FileReader(file);
