@@ -1,8 +1,0 @@
-# Project exclude paths
-/target/
-/.idea/
-/pom.xml
-/*.iml
-/src/main/java/com/borisov/cube/demo/
-/logs/logs/archive/
-/temp/
